@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: #f0e4d7;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #d2b48c;
+            padding: 10px;
+            text-align: center;
+        }
+        .product {
+            border: 1px solid #d2b48c;
+            margin: 10px;
+            padding: 10px;
+            text-align: center;
+        }
+        footer {
+            background-color: #d2b48c;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            alert('Welcome to our Jewelry Shop!');
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <button onclick="alert('Home')">Home</button>
+        <button onclick="alert('Product')">Product</button>
+    </header>
+    <div class="product">
+        <h2>Rings</h2>
+        <img src="ring.jpg" alt="Ring" width="200">
+        <p>Description of the ring.</p>
+    </div>
+    <div class="product">
+        <h2>Earrings</h2>
+        <img src="earrings.jpg" alt="Earrings" width="200">
+        <p>Description of the earrings.</p>
+    </div>
+    <!-- Add more products as needed -->
+    <footer>
+        &copy; 2022 Your Jewelry Shop
+    </footer>
+</body>
+</html>
